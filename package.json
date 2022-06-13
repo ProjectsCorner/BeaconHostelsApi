@@ -1,0 +1,32 @@
+{
+  "name": "plusapi",
+  "version": "1.0.0",
+  "description": "API for Plus online shopping",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamscom-tech/PlusApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamscom-tech/PlusApi/issues"
+  },
+  "homepage": "https://github.com/dreamscom-tech/PlusApi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^10.0.2",
+    "mongoose": "^5.13.14",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
